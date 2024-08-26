@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
-    "start-dev": "nodemon app.js"
+    "dev": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "nodemon": "^3.1.4"
   },
   "dependencies": {
-    "module_name": "^1.0.0"
+    "module_name": "^1.0.0",
+    "nodemon": "^3.1.4"
   }
 }

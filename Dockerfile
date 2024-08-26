@@ -1,4 +1,5 @@
-FROM node:boron
+FROM node:slim
+
 
 # Create app directory
 RUN mkdir -p /usr/src/app
@@ -12,4 +13,4 @@ RUN npm install
 COPY . /usr/src/app
 
 EXPOSE 4000
-CMD [ "npm", "start" ]
+CMD [ "npm", "run",  "dev" ]
